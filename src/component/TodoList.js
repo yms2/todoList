@@ -11,7 +11,6 @@ const TodoListBlock = styled.div`
 `;
 
 function TodoList() {
-
   const todos = useTodoState();
 
     return (

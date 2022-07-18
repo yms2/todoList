@@ -14,7 +14,6 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
   return (
-    <>
     <TodoProvider>
       <GlobalStyle />
       <TodoTemplate>
@@ -23,7 +22,6 @@ function App() {
       <TodoCreate/>
       </TodoTemplate>
       </TodoProvider>
-    </>
   );
 }
 
